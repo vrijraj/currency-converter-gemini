@@ -27,7 +27,7 @@ A simple web application that converts Indian Rupees (INR) to US Dollars (USD) u
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/currency-converter.git
+   git clone https://github.com/vrijraj/currency-converter-gemini.git
    cd currency-converter
    ```
 
@@ -87,10 +87,6 @@ currency-converter/
 ├── package.json           // Project configuration
 └── README.md              // Project documentation
 ```
-
-## License
-
-MIT
 
 ## Credits
 
