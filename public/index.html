@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INR to USD Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>INR to USD Converter</h1>
+        
+        <div id="simple-input">
+            <div class="input-group">
+                <label for="amount">Amount in Indian Rupees (₹)</label>
+                <div class="input-with-icon">
+                    <span class="currency-symbol">₹</span>
+                    <input type="number" id="amount" min="0" step="0.01" placeholder="Enter amount">
+                </div>
+            </div>
+            
+            <button id="convert-btn">Convert to USD</button>
+        </div>
+        
+        <div id="chat-input" style="display: none;">
+            <div class="chat-input">
+                <label for="user-message">Ask about currency conversion</label>
+                <textarea id="user-message" placeholder="Example: Convert 500 rupees to USD" rows="3"></textarea>
+            </div>
+            
+            <button id="ask-btn">Get Conversion</button>
+        </div>
+        
+        <div class="toggle-input">
+            <button id="toggle-input-btn" class="toggle-btn">Switch to Chat Mode</button>
+        </div>
+        
+        <div class="loading" id="loading">
+            <div class="loading-spinner"></div>
+            <div>Processing your request...</div>
+        </div>
+        
+        <div class="error" id="error">
+            Something went wrong. Please try again later.
+        </div>
+        
+        <div class="result" id="result">
+            <div class="result-amount" id="result-amount"></div>
+            <div class="result-rate" id="result-rate"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
