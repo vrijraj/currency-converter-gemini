@@ -2,6 +2,8 @@
 
 A simple web application that converts Indian Rupees (INR) to US Dollars (USD) using Google's Gemini AI to process natural language requests.
 
+Codelab: https://gradus.dev/labs/gemini-with-function-calling-in-node-GZXRSV
+
 ## Features
 
 - Simple mode for direct amount input
