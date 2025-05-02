@@ -49,7 +49,7 @@ Codelab: https://gradus.dev/labs/gemini-with-function-calling-in-node-GZXRSV
 
 4. Start the application:
    ```
-   npm start
+   npm run start
    ```
 
 5. Open your browser and navigate to:
