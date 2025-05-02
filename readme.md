@@ -1,3 +1,6 @@
+
+![gemini-functioncalling](https://github.com/user-attachments/assets/3a1e345b-4a8f-411e-968a-0229424c18e7)
+
 # INR to USD Currency Converter
 
 A simple web application that converts Indian Rupees (INR) to US Dollars (USD) using Google's Gemini AI to process natural language requests.
